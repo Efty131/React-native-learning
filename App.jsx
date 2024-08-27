@@ -1,11 +1,11 @@
 import { View } from 'react-native'
 import React from 'react';
-import UserInput from './src/components/UserInput';
+import FlatListScreen from './src/components/flatListScreen';
 const App = () => {
 
   return (
     <View>
-      <UserInput />
+      <FlatListScreen />
     </View>
   )
 }
