@@ -1,11 +1,11 @@
 import { View } from 'react-native'
 import React from 'react';
-import SectionListScreen from './src/components/SectionListScreen';
+import LoginForm from './src/components/LoginForm';
 const App = () => {
 
   return (
     <View>
-      <SectionListScreen />
+      <LoginForm />
     </View>
   )
 }

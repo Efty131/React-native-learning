@@ -1,6 +1,5 @@
 import { View, Text, SectionList, StyleSheet } from 'react-native';
 import React from 'react';
-
 const listItems = [
     // Nested array 👇
     {
@@ -19,22 +18,18 @@ const listItems = [
             { id: 6, name: 'Tomato' },
         ]
     },
-]
-
+];
 const SectionListScreen = () => {
-
     const renderItem = ({ item }) => (
         <View style={styles.item}>
             <Text style={styles.title}>{item.name}</Text>
         </View>
     );
-
     const renderSectionHeader = ({section}) => (
         <View style={styles.header}>
             <Text style={styles.headerTitle}>{section.title}</Text>
         </View>
     );
-
   return (
     <View>
       <SectionList 
@@ -45,8 +40,7 @@ const SectionListScreen = () => {
        {/* keyExtractor is for performance opt. */}
     </View>
   )
-}
-
+};
 const styles = StyleSheet.create({
     container : {
         backgroundColor: '#f0f0f0',
