@@ -1,11 +1,11 @@
 import { View } from 'react-native'
 import React from 'react';
-import UseEffectHook from './src/components/useEffectHook';
+import UseEffectHookUpdatingPhase from './src/components/useEffectHookUpdatingPhase';
 const App = () => {
 
   return (
     <View>
-      <UseEffectHook />
+      <UseEffectHookUpdatingPhase />
     </View>
   )
 }
