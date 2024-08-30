@@ -1,11 +1,12 @@
 import { View } from 'react-native'
 import React from 'react';
-import UseEffectHookUpdatingPhase from './src/components/useEffectHookUpdatingPhase';
+import HideShowToggle from './src/components/hideShowToggle';
+
 const App = () => {
 
   return (
     <View>
-      <UseEffectHookUpdatingPhase />
+      <HideShowToggle />
     </View>
   )
 }
