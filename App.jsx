@@ -1,12 +1,12 @@
 import { View } from 'react-native'
 import React from 'react';
-import StatusBarComponent from './src/components/statusBarComponent';
+import UseRefHook from './src/components/useRefHook';
 
 const App = () => {
 
   return (
     <View>
-      <StatusBarComponent />
+      <UseRefHook />
     </View>
   )
 }
