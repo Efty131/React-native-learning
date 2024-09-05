@@ -1,12 +1,12 @@
 import { View } from 'react-native'
 import React from 'react';
-import HideShowToggle from './src/components/hideShowToggle';
+import StatusBarComponent from './src/components/statusBarComponent';
 
 const App = () => {
 
   return (
     <View>
-      <HideShowToggle />
+      <StatusBarComponent />
     </View>
   )
 }
