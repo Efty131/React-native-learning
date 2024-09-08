@@ -1,12 +1,12 @@
 import { View } from 'react-native'
 import React from 'react';
-import UseRefHook from './src/components/useRefHook';
+import Get_api from './src/components/get_api';
 
 const App = () => {
 
   return (
     <View>
-      <UseRefHook />
+      <Get_api />
     </View>
   )
 }
