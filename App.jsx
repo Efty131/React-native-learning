@@ -1,12 +1,11 @@
 import { View } from 'react-native'
 import React from 'react';
-import Get_api from './src/components/get_api';
-
+import Search from './src/components/Search';
 const App = () => {
 
   return (
     <View>
-      <Get_api />
+      <Search />
     </View>
   )
 }
